@@ -1,7 +1,5 @@
 # astrbot2github
 
-[![Deploy with Deno](https://deno.com/deploy/button.svg)](https://dash.deno.com/new?url=https://github.com/lxfight/astrbot2github)
-
 为 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 用户打造的 GitHub 加速代理服务，基于免费且强大的 [Deno Deploy](https://deno.com/deploy) 平台。
 
 ## 你是否遇到过这种情况？
