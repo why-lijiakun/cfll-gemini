@@ -1,5 +1,7 @@
 # astrbot2github
 
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=lxfight.astrbot2github)](https://visitor-badge.laobi.icu)
+
 为 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 用户打造的 GitHub 加速代理服务，基于免费且强大的 [Deno Deploy](https://deno.com/deploy) 平台。
 
 ## 你是否遇到过这种情况？
