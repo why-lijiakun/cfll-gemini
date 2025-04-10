@@ -1,0 +1,2 @@
+# astrbot2github
+为AstrBot实现的基于deno的github加速访问服务
