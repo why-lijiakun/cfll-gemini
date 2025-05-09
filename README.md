@@ -41,7 +41,7 @@
 8.  **获取服务地址**: 部署成功后，页面会显示你的服务地址，格式为 `https://<第6步设置的项目名>.deno.dev`。复制这个地址。
 9.  **配置 gemini的api**:
     *   回到你的 api接口代码中。
-    *   将https://generativelanguage.googleapis.com/修改为https://<第6步设置的项目名>.deno.dev。
+    *   将https://generativelanguage.googleapis.com/ 修改为 https://<第6步设置的项目名>.deno.dev。
     *   保存并退出
 
 🎉 **完成！** 现在 gemini，将会通过你刚刚部署的 Deno 服务进行代理访问。
@@ -49,14 +49,13 @@
 ## 验证部署
 
 部署完成后，你可以通过直接在浏览器中访问你的 Deno 服务地址来验证是否成功：
-
 `https://<你的项目名>.deno.dev`
-
+网页会显示：这个地址仅用于访问Gemini API使用！
 
 
 ## 注意事项
 
-*   **魔改 AstrBot中github免费加速项目 设计**: 本项目主要解决了 gemini 在国内网络环境，或被gemini封禁国外ip时可能遇到的网络问题。并非一个通用的 gemini 网站或 API 代理。
+*   **魔改 AstrBot中github免费加速项目设计**: 本项目主要解决了 gemini 在国内网络环境，或被gemini封禁国外ip时可能遇到的网络问题。并非一个通用的 gemini 网站或 API 代理。
 *   **Deno Deploy 免费额度**: Deno Deploy 提供非常慷慨的免费套餐（包括每月大量的请求数和数据传输量），对于 AstrBot 的使用场景通常绰绰有余。但仍需注意，超出免费额度可能会产生费用或服务受限，请自行查阅 [Deno Deploy Pricing](https://deno.com/deploy/pricing)。
 *   **更新**: 如果本项目有重要更新，你可能需要同步你 Fork 的仓库，Deno Deploy 通常会自动重新部署更新后的代码。
 
