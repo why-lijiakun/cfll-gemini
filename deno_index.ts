@@ -4,7 +4,7 @@ async function handler(req: Request): Promise<Response> {
   const incomingUrl = new URL(req.url);
   if (incomingUrl.pathname === "/") {
     return new Response(
-      "This address is solely used to provide faster access to Gemini API for astrbot",
+      "这个地址仅用于访问Gemini API使用！",
       {
         status: 200, // OK
         headers: { "Content-Type": "text/plain; charset=utf-8" },
