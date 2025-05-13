@@ -36,7 +36,7 @@
 6.  **配置部署**:
     *   **Production Branch**: 保持默认 (`main`) 即可。
     *   **Entrypoint**: **这是关键步骤！** 点击下拉框，找到并选择 `deno_index.ts` 文件作为入口点。
-    *   **Project Name**: Deno 会自动生成一个项目名称，这将是你的服务地址的一部分。你可以保留自动生成的名称 (例如 `fluffy-donkey-12`)，也可以自定义一个**全局唯一**的名称 (例如 `my-astrbot-proxy`)。 记下这个名称，你的服务最终地址将是 `https://<你的项目名>.deno.dev`。
+    *   **Project Name**: Deno 会自动生成一个项目名称，这将是你的服务地址的一部分。你可以保留自动生成的名称 (例如 `DragonEmpery-gemini-12`)，也可以自定义一个**全局唯一**的名称 (例如 `my-gemini`)。 记下这个名称，你的服务最终地址将是 `https://<你的项目名>.deno.dev`。
 7.  **开始部署**: 确认设置无误后，点击 **Link** 或 **Deploy** 按钮。Deno 将自动拉取代码、构建并部署你的服务。稍等片刻即可完成。
 8.  **获取服务地址**: 部署成功后，页面会显示你的服务地址，格式为 `https://<第6步设置的项目名>.deno.dev`。复制这个地址。
 9.  **配置 gemini的api**:
@@ -56,7 +56,7 @@
 ## 注意事项
 
 *   **魔改 AstrBot中github免费加速项目设计**: 本项目主要解决了 gemini 在国内网络环境，或被gemini封禁国外ip时可能遇到的网络问题。并非一个通用的 gemini 网站或 API 代理。
-*   **Deno Deploy 免费额度**: Deno Deploy 提供非常慷慨的免费套餐（包括每月大量的请求数和数据传输量），对于 AstrBot 的使用场景通常绰绰有余。但仍需注意，超出免费额度可能会产生费用或服务受限，请自行查阅 [Deno Deploy Pricing](https://deno.com/deploy/pricing)。
+*   **Deno Deploy 免费额度**: Deno Deploy 提供非常慷慨的免费套餐（包括每月大量的请求数和数据传输量），对于 gemini 的使用场景通常绰绰有余。但仍需注意，超出免费额度可能会产生费用或服务受限，请自行查阅 [Deno Deploy Pricing](https://deno.com/deploy/pricing)。
 *   **更新**: 如果本项目有重要更新，你可能需要同步你 Fork 的仓库，Deno Deploy 通常会自动重新部署更新后的代码。
 
 ---
