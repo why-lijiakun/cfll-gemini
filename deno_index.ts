@@ -19,7 +19,7 @@ async function handler(req: Request): Promise<Response> {
   const targetPath = decodeURIComponent(incomingUrl.pathname.slice(1));
 
   // 2. Construct the full Gemini API URL
-  const baseUrl ="https://lijiakun-gemini.deno.dev";
+  const baseUrl ="https://lijiakun-gemini.deno.dev/";
   const targetUrlString = `${baseUrl}${targetPath}${incomingUrl.search}`;
 
   // 3. Validate that the constructed URL is valid
